@@ -1,0 +1,25 @@
+{
+  "name": "andrey2620-theme",
+  "publisher": "andrey2620",
+  "displayName": "andrey2620-theme",
+  "description": "andrey2620-theme description",
+  "repository": "https://github.com/andrey2620/andrey2620-theme",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "andrey2620",
+        "uiTheme": "vs-dark",
+        "path": "./themes/andrey2620-color-theme.json"
+      }
+    ]
+  }
+}
